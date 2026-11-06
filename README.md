@@ -35,3 +35,6 @@ Describe human-directed, largely AI-generated main-branch code candidly. Keep th
 ## Rename compatibility
 
 Archives of Arcanum is the new product name as of October 30, 2026. `/apps/archives-of-arcanum/` is canonical; `/apps/silverlight/` remains a working equivalent for existing OAuth registrations and inbound links. Do not remove the legacy page until external configuration has been updated. Google consent branding needs a separate owner-managed update; no Cloud project, OAuth client, package ID, data path, or account was changed here.
+
+## Public research example
+The canonical app page and legacy Silverlight page embed `/examples/hoid-adonalsium.html`. The original uploaded export is not committed. The public edition retains all 271 cards and connections; 16 copied fiction, interview, or discussion passages were replaced with short summaries, including the extended Oathbringer and The Traveler excerpts. Do not restore copied passages without a rights review. The companion notes page provides linear reading; regenerate it when changing board content. The export CSP hashes its inline viewer script: update that hash whenever the script changes. The iframe permits scripts and external links but has no same-origin permission or network access. No account, sync, editing, or storage is enabled.
